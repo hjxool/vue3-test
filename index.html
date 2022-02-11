@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
+  <script src="https://unpkg.com/vue@next"></script>
+</head>
+
+<body>
+  <div class="vue3" title="额外信息">
+    <button @click=" show=!show">show</button>
+    <transition :duration="3000" appear>
+      <div v-show="show" class="tran"></div>
+    </transition>
+    aaa:{{bbb}}
+    {{count}}
+    <div @click="funccc">
+      <button @click="funccc">点我</button>
+    </div>
+    <div class="scroll" @click.self="scrollwidth">
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+      <div>1897941651651651561</div>
+    </div>
+  </div>
+  <table class="qwe">
+    <thead>
+      <tr>
+        <th>我是一号</th>
+        <th>我是二号</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <script src="./main.js"></script>
+</body>
+
+</html>
