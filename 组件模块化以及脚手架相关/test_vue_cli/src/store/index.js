@@ -20,6 +20,12 @@ const mutations = {
 const state = {
 	sum: 0,
 };
+// 跟计算属性同样功能的属性
+const getters = {
+	sum10(state) {
+		return state.sum * 10;
+	},
+};
 // 必须要引入vue应用vuex插件 才能使用new vuex
 Vue.use(Vuex);
 export default new Vuex.Store({
@@ -27,4 +33,5 @@ export default new Vuex.Store({
 	actions,
 	mutations,
 	state,
+	getters,
 });
